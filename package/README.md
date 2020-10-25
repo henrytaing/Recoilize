@@ -1,18 +1,20 @@
 <meta name='keywords' content='Recoil, Recoil.js, Recoil Dev Tool, Recoilize, Chrome Dev Tool, Recoil Chrome'>
 
-<p align='center'>
-<img src='./src/extension/build/assets/cover-photo-logo-recoilize.jpg' width=100%>
-</p>
 
 <h1>Debugger for Recoil Applications</h1>
 
 # [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/oslabs-beta/Recoilize/blob/staging/LICENSE) [![npm version](https://img.shields.io/npm/v/recoilize)](https://www.npmjs.com/package/recoilize) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
+
+# [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/oslabs-beta/Recoilize/blob/staging/LICENSE) [![npm version](https://img.shields.io/npm/v/recoilize)](https://www.npmjs.com/package/recoilize) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 [Korean README 한국어](README_KO.md)
+
 
 <h1> About</h1>
 <p>
 Recoilize is a Chrome Dev Tool meant for debugging applications built with the experimental Recoil.js state management library.
+
 
 The tool records Recoil state and allows users to easily debug their applications with features such as time travel to previous states, visualization of the component graph and display of the atom selector network.
 </p>
@@ -47,11 +49,6 @@ npm install recoilize
 import RecoilizeDebugger from 'recoilize';
 ```
 
-<!-- #### Recoilize requires you to create a variable that grabs the HTML element where you inject your React application
-
-```js
-const root = document.getElementById('root');
-``` -->
 
 #### Integrate RecoilizeDebugger as a React component within the recoil root:
 
@@ -92,7 +89,10 @@ ReactDOM.render(
 
 ##### (Only supported with React applications using Recoil as state management)
 
+
+
 <h1>New Features for Version 0.9.4</h1>
+
 <h3>Support for Recoil 0.13.0</h3>
 <p>Recoilize now supports the most recent update to the Recoil library.</p>
 
@@ -107,24 +107,14 @@ ReactDOM.render(
 
 The flame graph displays the time a component took to render itself, and all of its child components. The bar graph displays the individual render times of each component.<p>
 
-<p align='center'> 
-<img src='./src/extension/build/assets/metrics.gif' width=600 height=300/>
-</p>
+
 
 <h1>Features</h1>
 <h3>Time Travel</h3>
 <p>As one of the key features of Recoilize, the tool enables users to jump to any previous snapshots. Pressing the jump button next to each of the snapshots will change the DOM by setting the state to that snapshot.<p>
 
-<p align='center'> 
-<img src='./src/extension/build/assets/timeTravel.gif' width=600 height=300/>
-</p>
-
 <h3>Visualizations</h3>
 <p>Users are able to view visualizations for their application's state by clicking individual snapshots. Recoilize provides component trees and graphs, as well as the state trees in JSON format.<p>
-
-<p align='center'> 
-<img src='./src/extension/build/assets/components.gif' width=600 height=300/>
-</p>
 
 <h3>Throttle</h3>
 <p>In the settings tab, users are able to set throttle (in milliseconds) for large scale applications or any applications that changes state rapidly. The default is set at 70ms.<p>
@@ -172,3 +162,4 @@ The flame graph displays the time a component took to render itself, and all of 
 <h4>Davide Molino <a  href='https://github.com/davidemmolino' target="_blank">@github </a><a  href='https://www.linkedin.com/in/davide-molino/' target="_blank">@linkedin</a> </h4>
 
 <h4>Taven Shumaker <a  href='https://github.com/TavenShumaker' target="_blank">@github </a><a  href='https://www.linkedin.com/in/Taven-Shumaker/' target="_blank">@linkedin</a> </h4>
+
